@@ -16,4 +16,8 @@ public class CustomerDTO {
     private String name;
     private String address;
     private String salary;
+
+    public CustomerDTO(String cusID) {
+
+    }
 }
