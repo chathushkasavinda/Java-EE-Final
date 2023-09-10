@@ -10,7 +10,6 @@ $("#btnCustomer").click(function () {
     } else {
         alert("Error");
     }
-
 });
 
 //get all customer event
