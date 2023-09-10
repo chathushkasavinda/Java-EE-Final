@@ -2,6 +2,8 @@ package lk.ijse.pos.servlet.servlet;
 
 
 
+import lk.ijse.pos.servlet.bo.BOTypes;
+import lk.ijse.pos.servlet.bo.FactoryBO;
 import lk.ijse.pos.servlet.bo.custom.impl.CustomerBOImpl;
 import lk.ijse.pos.servlet.dao.DAOTypes;
 import lk.ijse.pos.servlet.dao.FactoryDAO;
@@ -22,7 +24,7 @@ import java.sql.*;
 @WebServlet(urlPatterns = {"/customer"})
 public class CustomerServlet extends HttpServlet {
 
-    private final CustomerBOImpl customoerBO = (CustomerBOImpl) FactoryDAO.getFactoryDAO().getInstance(DAOTypes.Customer);
+    private final CustomerBOImpl customoerBO = (CustomerBOImpl) FactoryBO.getFactoryBO().getInstance(BOTypes.Customer);
 
     public CustomerServlet(){
         System.out.println("Customer Servlet Constructor Invoked");

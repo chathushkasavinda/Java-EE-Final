@@ -13,5 +13,8 @@ public class ItemDTO {
     private String qty;
     private String unitPrice;
 
+    public ItemDTO(String code) {
+
+    }
 }
 
