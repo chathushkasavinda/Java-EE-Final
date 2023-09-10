@@ -7,7 +7,8 @@
           <element id="module-output" name="O16_POS_SPA_Back_End1" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="O15_POS_SPA_Front_End" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.18/lombok-1.18.18.jar" />
+          <element id="library" level="project" name="lib_file_back_end" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="O16_POS_SPA_Back_End1/web/Web" />

@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="O15_POS_SPA_Front_End">
+  <library name="lib_file_back_end">
     <CLASSES>
       <root url="file://$PROJECT_DIR$" />
       <root url="jar://$PROJECT_DIR$/../O16_POS_SPA_Back_End/src/lk/ijse/pos/servlet/lib/commons-dbcp2-2.10.0.jar!/" />
